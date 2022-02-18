@@ -27,6 +27,22 @@ __"Количество ридов, пришедшихся на каждый ц�
 | :---: | :---: | :---: | :---: |
 | epiblast | 2328 | 1062 | 97.08 |
 | ICM | 1456 | 630 | 90.92 |
-| 8 cell | 1090 | 464 | 81.69 |
+| cell8 | 1090 | 464 | 81.69 |
 
 __bash-skript:__ ! ls -1 *1_bismark_bt2_pe* | xargs -tI{} deduplicate_bismark  --bam  --paired -o s_{} {}
+
+__"Анализ M-bias plot:"__
+
+| Название | Read 1 | Read 2 |
+| :---: | :---: | :---: |
+| epiblast | ![Bismark M-bias Read 1](https://user-images.githubusercontent.com/71905847/154702864-5da4923b-0c11-4739-b504-15739813ef9d.png) | ![Bismark M-bias Read 2](https://user-images.githubusercontent.com/71905847/154702890-8028bf9c-487f-4b66-a05e-ff53e0de4344.png) |
+| ICM | ![Bismark M-bias Read 1 (1)](https://user-images.githubusercontent.com/71905847/154704950-836c5fd9-0b14-4f5c-9ebc-923391525106.png) | ![Bismark M-bias Read 2 (1)](https://user-images.githubusercontent.com/71905847/154704972-505ff363-baea-40f6-ae2f-404340ae0317.png)|
+| cell8 | ![Bismark M-bias Read 1 (2)](https://user-images.githubusercontent.com/71905847/154705217-0301596a-793e-46b2-aa3e-cc59c6a57009.png) | ![Bismark M-bias Read 2 (2)](https://user-images.githubusercontent.com/71905847/154705239-ada35f72-918a-421f-8431-f67c67356a20.png)|
+
+| Название | CpG context (Methylation, %) |
+| :---: | :---: |
+| epiblast | 77.0 |
+| ICM | 25.2 |
+| cell8 | 46.5 |
+
+ Если же сравнивать CHG и CHH context, то для всех образцов они примено одинаковы.
