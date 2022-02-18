@@ -46,3 +46,11 @@ __"Анализ M-bias plot:"__
 | cell8 | 46.5 |
 
  Если же сравнивать CHG и CHH context, то для всех образцов они примено одинаковы.
+ 
+__"Гистограмма распределения метилирования по хромосоме:"__
+
+| Название | CpG context (Methylation, %) |
+| :---: | :---: |
+| epiblast | ![image](https://user-images.githubusercontent.com/71905847/154709162-a1b46c2e-7edb-455a-bf33-c40742c886b9.png) |
+| ICM | ![image](https://user-images.githubusercontent.com/71905847/154709338-5deb5229-0047-4f9c-8ebb-d653a8967230.png) |
+| cell8 | ![image](https://user-images.githubusercontent.com/71905847/154709291-21abce95-643d-4ced-a7bd-49c50e9a9b7d.png) |
