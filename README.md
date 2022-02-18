@@ -1,5 +1,9 @@
 # hse_hw1_meth
 
+__Ссылка на google-collab:__
+
+https://colab.research.google.com/drive/1Vgv_MTvCrZyK0IIjkkjakdWtAORVXnXV#scrollTo=iNOwfIKdNLYa
+
 ## Часть №1
 
 __"Какие особенности можно наблюдать по сравнению с секвенированием ДНК или РНК?"__
